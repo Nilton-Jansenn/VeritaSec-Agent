@@ -1,0 +1,152 @@
+# =========================================================
+# AMBIENTES VIRTUAIS
+.venv/
+.venv-1/
+venv/
+env/
+README_EMANUEL.MD
+
+# VARIÁVEIS DE AMBIENTE / SEGREDOS
+.env
+.env.*
+!.env.exemplo
+# SAÍDAS GERADAS PELA APLICAÇÃO
+saidas/
+resultados/
+# LOGS E ARQUIVOS LOCAIS
+*.log
+log.txt
+raiz projeto home nilton.txt
+# CACHE / BYTECODE PYTHON
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# FERRAMENTAS / TESTES / COBERTURA
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+# JUPYTER / NOTEBOOKS TEMPORÁRIOS
+.ipynb_checkpoints/
+# IDE / EDITOR
+.vscode/*
+!.vscode/extensions.json
+# SISTEMA OPERACIONAL / TEMPORÁRIOS
+.DS_Store
+Thumbs.db
+*~
+.agents
+.codex
+.vscode
+# ============================================================
+# VeritasSec-Agent — ambiente local e artefatos de execução
+# Segredos / configuração local
+!.env.example
+# Python
+.venv-*/
+*.py[cod]
+# IDE
+.vscode/
+.idea/
+# Saídas locais — devem permanecer fora do repositório
+logs/
+evidencias/
+temporarios/
+# Temporários
+*.tmp
+*.temp
+*.swp
+
+# ============================================================
+# VeritasSec-Agent — ambiente/runtime
+# ============================================================
+
+# Dataset experimental externo
+diffs_semana_SEMANA_2.csv
+
+# ==========================================
+# VERITASSEC - PROTECAO DE DADOS
+# ==========================================
+
+# Credenciais e configuracoes locais
+.env
+.env.*
+!.env.example
+!.env.sample
+*.env
+!*.env.example
+!*.env.sample
+.veritassec-*.env
+*credentials*
+*secrets*
+*secret_key*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Bancos locais
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Arquivos temporarios
+*.tmp
+*.bak
+*.backup
+*~
+.DS_Store
+
+# Backups operacionais
+*.backup-*
+*.bak-*
+
+# Dados locais e evidencias
+VeritasSec-Agent-Saidas/
+evidencias/
+
+# Repositorio externo de testes
+/input/projects/juice-shop/
+# Protecoes adicionais VeritaSec-Agent
+/.veritassec-*.env
+/.env
+/.env.*
+/.venv/
+/venv/
+/a07272593619415390c7badf912c5f88/
+/evidencias/
+/logs/
+/VeritasSec-Agent-Saidas/
+
+# Resultado SARIF local sob revisao
+/input/sarif/juiceShop_code.sarif
